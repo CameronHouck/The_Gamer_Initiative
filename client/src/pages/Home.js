@@ -1,11 +1,8 @@
 import React from "react";
+import Map from "../components/Map";
 
-const Map = () => {
-  return (
-    <div className="TheMap">
-      <Map />
-    </div>
-  );
+const Home = () => {
+  return <Map />;
 };
 
-export default Map;
+export default Home;
